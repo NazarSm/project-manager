@@ -10,7 +10,7 @@
                     </div>
                     <div class="card-body">
                         <div class="card-group">
-                            @if($projects)
+                            @if(sizeof($projects))
                                 @foreach($projects as $project)
                                     <div class="card">
                                         <div class="card-body">
