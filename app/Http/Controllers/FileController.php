@@ -23,7 +23,7 @@ class FileController extends Controller
         $downloadFile = $this->fileRepository->findById($id);
         $file = sprintf('%s/%s', File::PATH, $downloadFile->name);
 
-        return response()->download(storage_path($file));
+        return response()->download(storage_path($file), $downloadFile->original_name);
     }
 
     public function destroy($id)
