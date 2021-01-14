@@ -7,7 +7,7 @@
 
     
    <h3>credentials for admin :</h3>
-    <b>email</b>in DB <br>
-    <b>password</b>: admin
+    <b>email</b>: in DB <br>
+    <b>password</b>: password
 
 
