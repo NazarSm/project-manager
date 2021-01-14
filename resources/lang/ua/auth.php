@@ -24,6 +24,7 @@ return [
     'email_address' => 'E-Mail',
 
     'name' => 'Ім\'я',
+    'profile' => 'Мій аккаунт',
     'confirm_password' => 'Підтвердіть паролю',
 
 ];

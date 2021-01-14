@@ -29,6 +29,9 @@
                     <a class="navbar-brand" href="{{ url('/') }}">
                         <b>{{ __('auth.main') }}</b>
                     </a>
+                    <a class="navbar-brand" href="{{ url('/nova') }}">
+                        <b>{{ __('auth.profile') }}</b>
+                    </a>
                 @endif
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="{{ __('Toggle navigation') }}">
                     <span class="navbar-toggler-icon"></span>

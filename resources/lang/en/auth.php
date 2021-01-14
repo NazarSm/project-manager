@@ -24,6 +24,7 @@ return [
     'email_address' => 'E-Mail Address',
 
     'name' => 'Name',
+    'profile' => 'Profile',
     'confirm_password' => 'Confirm password',
 
 
